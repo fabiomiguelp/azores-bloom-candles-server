@@ -10,7 +10,7 @@ module.exports = {
         PORT: 9000,
         DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/medusa-store",
         REDIS_URL: "redis://localhost:6379",
-        STORE_CORS: "https://admin.azoresbloomcandles.com",
+        STORE_CORS: "https://azoresbloomcandles.com",
         ADMIN_CORS: "https://admin.azoresbloomcandles.com",
         AUTH_CORS: "https://admin.azoresbloomcandles.com",
         JWT_SECRET: "supersecret",
