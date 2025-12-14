@@ -9,7 +9,7 @@ const TopbarLogoWidget = () => (
         backgroundColor: "#fff"
     }}>
         <img
-            src="/static/prr_logo.png"
+            src="/app/assets/prr_logo.png"
             alt="Logo"
             style={{
                 maxHeight: "50px",
