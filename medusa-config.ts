@@ -15,4 +15,21 @@ module.exports = defineConfig({
     },
   },
   plugins: [],
+    modules: [
+        {
+            resolve: "@medusajs/medusa/payment",
+            options: {
+                providers: [
+                    {
+                        resolve: "@medusajs/medusa/payment-stripe",
+                        id: "stripe",
+                        options: {
+                            apiKey: process.env.STRIPE_API_KEY,
+                        },
+                    },
+                ],
+            },
+        },
+    ],
+
 })
